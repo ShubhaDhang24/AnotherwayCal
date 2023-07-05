@@ -3,8 +3,7 @@ package org.example;
 
 import java.util.Scanner;
 
-class Addition
-{
+public class Main {
     double add;
     void Add(double n1, double n2)
     {
@@ -37,9 +36,7 @@ class Addition
         }
         System.out.println("Division of two numbers:"+div);
     }
-}
 
-public class Main {
 
     public static void main(String[] args) {
 
@@ -59,7 +56,7 @@ public class Main {
             System.out.println("5-exit");
             System.out.println("-----------------------------------------------------------------------");
             int num = scanner.nextInt();
-            Addition ad=new Addition();
+            Main ad=new Main();
             switch (num) {
                 case 1:
                 {
