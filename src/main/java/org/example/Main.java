@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 
 public class Main {
-
-
-
-
     public static void Addition() {
 
         Scanner scanner= new Scanner(System.in);
